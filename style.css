@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Instrument Serif', serif;
+    padding-left: 50px;
+    padding-right: 50px;
+}.topo{
+    display:flex ;
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items: center;
+}
+ul {
+    display:flex ;
+    justify-content: space-between;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.botao-secundario {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+img{
+    width: 300px;
+}
+.corpo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.esquerda {
+    display: flex;
+    flex-direction: column;
+}
+p{
+    font-size: 20px;
+    font-weight: 500;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+.botao-primario {
+background-color: rgb(60, 245, 152);
+color: black;
+font-size: 28px;
+border-radius: 8px;
+text-align: center;
+padding: 10px;
+}
+p,h1 {
+    padding-top: 30px;
+}
