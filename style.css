@@ -37,7 +37,7 @@ body {
     width: 70px;
 }
 
-.topo li {
+.topo  li {
     list-style-type: none;
     color: var(--rosa-mais-medio-escuro);
 }
